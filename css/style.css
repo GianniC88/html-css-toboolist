@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-uniquifier {
+    font-family: "Roboto", sans-serif;
+    
+
+}    
+
+/* body */
+ 
+body {
+    background-color: gray;
+
+}
+
+/* utils */
+
+
+
+/* header */
+
+header{
+    height: 70px;
+    background-color: #F6F8F9;
+    line-height: 70px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+h1{
+    display: inline;
+    font-weight: 900px;
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.btn.btn-primary{
+        background-color: #1E90FF;
+        color: #fff;
+        border-color: gray;
+}
+
+.btn.btn-secondary {
+
+    background-color: white;
+    color: gray;
+    border-color: currentColor;
+}
+
+.card-header {
+    padding: 20px 30px;
+    border-bottom: 2px solid gray ;
+ }
+
+ .container {
+    width: 50%;
+    margin: 0 auto;
+}
